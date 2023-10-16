@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    
+    }
+    
+    html , body{
+        width: 100%;
+        height: 100%;
+    
+    
+    }
+    #main{
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(#000	,#3e3e94, #000);
+            }
+    #cards{
+
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .card{
+        width: 230px;
+        
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 20px;
+
+    }
+    .card img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
+        padding-bottom: 5px;
+    
+    }
+    .card p{
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        padding: 10px;
+    }
+    .card button{
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        color: #fff;
+    
+        font-size: 17px;
+
+        
+
+    }
+    .card h4{
+        padding-bottom: 10px;
+      
+    }
+    #Strangers{
+        color: red;
+    
+    }
+    #Friends{
+        color: rgb(20, 127, 77);
+    
+    }
+    #Friendrequstsend{
+        color: rgba(154, 124, 42, 0.779);
+    }
+    .blue{
+        background-color: #3333d5;
+
+    }
+    .red{
+       background-color: red;
+    }
